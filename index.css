@@ -1,0 +1,29 @@
+h2 {
+    text-align: center;
+}
+form,table{
+    background-color: rgb(161, 157, 157);
+    margin: 2rem;
+    padding: 1.5rem;
+    width: 80vh;
+    display: inline-block;
+}
+.row{
+    margin: 1.5rem; 
+}
+label{
+     display: block;
+}
+input{
+    width: 60vh;
+    height: 5vh;
+}
+
+input[type='submit'],
+input[type='reset'],
+input[type='edit'],
+input[type='delete']{
+    border-radius: 2rem;
+    font-size: 1rem;
+    width: 20vh;
+}
